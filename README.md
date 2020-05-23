@@ -1,7 +1,5 @@
 # warsawjs-workshop-44-netflix
 
-[![travis-ci](https://api.travis-ci.org/piecioshka/warsawjs-workshop-44-netflix.svg?branch=master)](https://travis-ci.org/piecioshka/warsawjs-workshop-44-netflix)
-
 ⛩️ WarsawJS Workshop #44 — Wzorce Projektowe (Design Patterns)
 
 ## Demo 🎉
@@ -10,13 +8,22 @@
 
 ## Step by step 👣
 
-* (Creational) Factory Method
 * (Creational) Builder
+    + Create list with videos
+    + <https://www.coolgenerator.com/movie-title-generator>
+* (Creational) Factory Method
+    + Sign in / sign out
+    + Create user
 * (Structural) Facade
+    +
 * (Structural) Proxy
+    +
 * (Structural) Adapter (Wrapper)
+    +
 * (Behavioral) Observer
+    + Sign in will refresh UI parts which deps on user
 * (Behavioral) Strategy
+    + Play different video formats
 
 ## Unit tests
 
