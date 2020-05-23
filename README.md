@@ -10,7 +10,13 @@
 
 ## Step by step 👣
 
-* ...
+* (Creational) Factory Method
+* (Creational) Builder
+* (Structural) Facade
+* (Structural) Proxy
+* (Structural) Adapter (Wrapper)
+* (Behavioral) Observer
+* (Behavioral) Strategy
 
 ## Unit tests
 

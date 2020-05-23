@@ -15,20 +15,21 @@
         "test": "jest --rootDir test/specs/",
         "test:watch": "npm run test -- --watch",
         "start": "cd src/ && http-server -c-1 -o .",
-        "lint": "eslint src/"
+        "lint": "eslint src/",
+        "deploy": "cross-env NODE_DEBUG=gh-pages gh-pages -d src/"
     },
     "devDependencies": {
         "@types/jest": "^25.2.2",
+        "cross-env": "^7.0.2",
         "eslint": "^7.0.0",
         "eslint-config-piecioshka": "^2.0.2",
         "eslint-plugin-smells": "^1.0.1",
+        "gh-pages": "^2.2.0",
+        "http-server": "^0.12.3",
         "jest": "^26.0.1"
     },
     "repository": {
         "type": "git",
         "url": "git@github.com:piecioshka/warsawjs-workshop-44-netflix.git"
-    },
-    "dependencies": {
-        "http-server": "^0.12.3"
     }
 }
