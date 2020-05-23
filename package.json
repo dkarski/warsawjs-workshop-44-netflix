@@ -14,8 +14,8 @@
         "clear:all": "rm -rf node_modules/ && npm run clear",
         "test": "jest --rootDir test/specs/",
         "test:watch": "npm run test -- --watch",
-        "start": "node index.js",
-        "dev": "nodemon index.js"
+        "start": "cd src/ && http-server -c-1 -o .",
+        "lint": "eslint src/"
     },
     "devDependencies": {
         "@types/jest": "^25.2.2",
@@ -27,5 +27,8 @@
     "repository": {
         "type": "git",
         "url": "git@github.com:piecioshka/warsawjs-workshop-44-netflix.git"
+    },
+    "dependencies": {
+        "http-server": "^0.12.3"
     }
 }
